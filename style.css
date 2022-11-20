@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .calc-outline{
-    height: 450px;
+    height: 500px;
     width: 400px;
     background-color: grey;
     margin:  auto;
@@ -23,6 +23,8 @@
 .display-box{
     height: 30px;
     width: 75%;
+    font-size: 20px;
+    text-align: right;
     /* margin: 10px auto 0 auto; */
 }
 
@@ -39,6 +41,7 @@
     margin: 20px 26px;
     border-radius: 5px;
     box-shadow: 2px 2px palevioletred;
+    font-size: large;
 }
 .heading{
     height: 50px;
@@ -52,8 +55,17 @@
     font-size: 15px;
     text-transform: uppercase;
 }
-.btn:hover {
+button:hover {
     background-color:rgb(255,0,0);opacity:0.6;
     cursor: pointer;
     transition: ease-in-out .5s;
   }
+.btn-ac{
+    width: 70px;
+    height: 36px;
+
+    background-color: green;
+    margin: 20px 26px;
+    border-radius: 5px;
+    box-shadow: 2px 2px palevioletred;
+}
